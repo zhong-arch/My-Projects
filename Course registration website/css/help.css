@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+.help{
+  background-color: rgba(255,255,255,0.7);
+}
+
+/* for contact us form */
+
+h1 {
+   margin: 0;
+   text-align: center;
+   color: rgba(78,44,31,0.8);
+   text-shadow: 1px 1px 0 rgba(white, 1);
+   font-family: 'Merriweather', sans-serif;
+   padding: 20px;
+}
+
+.contact-form{
+  padding: 1em;
+  
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+
+input, textarea {
+  border:0;
+  outline:0;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  box-shadow: 0 2px 1px rgba(black, 0.4);
+  resize: none;
+    /* shadow */
+    -webkit-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    -moz-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+}
+  
+#input-submit {
+  font-family: 'Merriweather', sans-serif;
+    color: white; 
+    background: rgb(238, 167, 57);
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    align-content: center;
+    
+    /* shadow */
+    -webkit-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    -moz-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    
+}
+
+#input-name{
+    /* shadow */
+    -webkit-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    -moz-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+}
+
+#input-email{
+    /* shadow */
+    -webkit-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    -moz-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+}
+
+textarea {
+    height: 126px;
+}
+
+.contact-info{
+  font-family: 'Merriweather', sans-serif;
+  margin-left: 40%;
+  padding-bottom: 20px;
+}
+
+/* FAQ */
+
+.faq-content{
+  padding: 30px;
+  border-radius: 9px 9px 9px 9px;
+  margin: 0vh 50vh;
+  background-color: rgba(255,255,255,0.3);
+  
+  /* shadow */
+  -webkit-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+  -moz-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+  box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+}
+
+.faq-content p {
+  color: black;
+  margin-left: 10px;
+}
+
+.faq-content h3{
+  color: rgba(black, 0.6);
+}
+
+.faq h1{
+  background-color: rgba(104, 104, 104, 0.3);
+  margin: auto 60vh;
+  padding: 20px;
+  font-size: 20px;
+
+  border-radius: 9px 9px 0px 0px;
+
+  /* shadow */
+  -webkit-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+  -moz-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+  box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+}
+
+/*tutorial */
+
+.video{
+    /* shadow */
+    -webkit-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    -moz-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    border-radius: 9px;
+}

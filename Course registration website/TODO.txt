@@ -1,0 +1,12 @@
+TO DO:  FINISED ALL!! WOOHHOO
+
+
+- Overall:
+- Navbar:
+- Homepage:
+- Add course:
+- Drop Course:
+- Account:
+- Help:
+- Tables
+	

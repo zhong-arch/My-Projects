@@ -1,0 +1,43 @@
+
+
+.home-text{
+    background: rgba(255,255,255,0.3);
+    text-align: center;
+    margin: 18vh 45vh;
+    padding: 50px;
+    border-radius: 9px 9px 9px 9px;
+    
+    /* shadow */
+    -webkit-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    -moz-box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+    box-shadow: -6px 13px 77px -31px rgba(0,0,0,0.65);
+
+}
+
+.welcome{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 5vh;
+    letter-spacing: 0px;
+    word-spacing: 2.2px;
+    color: rgb(78,44,31);
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none; 
+    padding-top: 0%; 
+}
+.motto {
+    font-style: italic;
+
+    color: beige;
+    text-shadow: 3px;
+}
+
+

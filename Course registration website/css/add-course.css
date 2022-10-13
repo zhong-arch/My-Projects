@@ -1,0 +1,123 @@
+
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+
+		table,td {
+			margin: auto; /*makes in centered*/
+		}
+		td {
+			border: 1px solid black;
+		}
+		.left {
+			float: left;
+			width: 200px;
+			background-color: antiquewhite;
+			height: 90vh;
+		}
+
+		.dropLeft {
+			float: left;
+			width: 200px;
+			height: 90vh;
+			background-color:antiquewhite ;
+			background-image: url('img/trash.png');
+		}
+
+		.right {
+			margin-left: 200px;
+			background-color: rgba(255,255,255,0.7);
+			height: 90vh;
+		}
+
+		#scrollPart {
+			margin: 10px;
+			height: 60%;
+			width: 90%;
+			overflow: auto;
+			background: #EEEEEE;
+		}
+
+		input[type=text] {
+			width: 50%;
+			box-sizing: border-box;
+			margin: 10px;
+		}
+
+		input[type=button] {
+			width: 30%;
+			background-imag: url('img/searchbar.png');
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		#myUL {
+			list-style-type: none;
+			padding: 0;
+			margin: 10px;
+		}
+
+		#myUL li {
+			border: 1px solid #ddd;
+			margin-top: -1px;
+			background-color: #f6f6f6;
+			padding: 12px;
+			text-decoration: none;
+			font-size: 14px;
+			color: black;
+			display: block;
+		}
+		#box{
+			border: 1px solid black;
+			border-radius: 8px;
+			height: 130px;
+			width: 120px;
+			margin: 0% auto;
+			margin-top: 50%;
+			background-color: rgba(255, 255, 255, 0.267);
+		}
+		#myTable{
+			margin: 0% 5%;
+			width:90%;
+			table-layout: fixed;
+			text-align: center;
+		}
+
+		/* .right table tr td{
+			border: none;
+			
+		} */
+
+
+
+		#submitAddButton{
+		  background-color: rgb(240,168,40);
+		  color: white;
+		  padding: 14px 40px;
+		  margin: 8px 45%;
+		  border: 1px solid black;
+		  border-radius: 8px;
+		  cursor: pointer;
+		  display: block;
+		  margin: auto;
+
+		}
+
+		#headings{
+			margin: 10px;
+			background: rgb(185, 185, 185);
+		}
+
+		#note {
+			padding: 1px 20px;
+			font-size: 10px;
+			color: gray;
+			text-align: center;
+		}
+
+		#drop-message {
+			text-align: center;
+		}
+
+		

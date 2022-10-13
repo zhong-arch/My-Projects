@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  
+  <head>
+    <title>University of Batinoman</title>
+
+    <!--Links for CSS-->
+    <link rel="stylesheet" href="./css/login.css">
+
+    <script type="text/javascript" src="./js/banitoman.js"></script>
+
+  </head>
+
+  <body onload="iniLogin()">
+
+    <h1 id="title">
+      University of Batinoman
+    </h1>
+
+    <div class="login_window" >
+
+      <form method="post" action="js/batinoman.js">
+
+        <input type="text" id="uId" placeholder="Student ID"><br>
+        <input type="password" id="pWd" placeholder="Password"><br>
+        <input type="button" value="login" onclick="login();"><br>
+        <input type="button" value="I'm a new student">
+
+        <p class="forgot-pass"> 
+          <a href="reset_password.html"> Forgot Password? </a>
+        </p>
+
+      </form>
+
+    </div>
+
+  </body>
+</html>

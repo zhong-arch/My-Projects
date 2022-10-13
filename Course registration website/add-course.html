@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>University of Batinoman</title>
+
+	<!--links for CSS-->
+	<link rel="stylesheet" href="./css/navigation.css">
+	<link rel="stylesheet" href="./css/add-course.css">
+
+</head>
+
+<body onload="loadStorage()">
+
+
+
+	<!--Contents for Navigation-->
+	<div class="navigation">
+		<div class="title-bar">
+			<a href="homepage.html">
+				<img id="logo-home" src="./img/logo-title.png" alt="University of Batinoman">
+			</a>
+		</div>
+
+		<div class="nav-bar">
+			<a href="homepage.html"><img src="./img/home.png">&nbsp&nbspHome</a>
+
+			<div class="dropdown">
+				<button class="dropbtn" style="color: rgb(78,44,31); background-color:  rgb(240,168,40);"><img
+						src="./img/register.png" width="20px" height="20px">&nbsp&nbspRegister</button>
+				<div class="dropdown-content">
+					<a href="add-course.html">Add Course</a>
+					<a href="drop-course.html">Drop Course</a>
+				</div>
+			</div>
+
+			<a href="profile.html"><img src="./img/profile.png" width="20px" height="20px">&nbsp&nbspAccount</a>
+			<a href="schedule.html"><img src="./img/schedule.png" width="20px" height="20px">&nbsp&nbspSchedule</a>
+
+			<div class="dropdown">
+				<button href="help.html" class="dropbtn"><img src="./img/help.png" width="20px"
+						height="20px">&nbsp&nbspHelp</button>
+				<div class="dropdown-content">
+					<a href="help.html#tutorial">Tutorial</a>
+					<a href="help.html#faq">FAQ</a>
+					<a href="help.html#contact">Contact</a>
+				</div>
+			</div>
+
+			<div class="nav-right">
+				<a href="index.html"><img src="./img/logout.png" width="20px" height="20px">&nbsp&nbspLog-out</a>
+			</div>
+
+			<div class="nav-right">
+				<a id="greetings"> Welcome, Alex B. </a>
+			</div>
+		</div>
+
+		<!--Contents of Add Course Page-->
+		<div class="">
+
+			<div class="left">
+				<select id="term" style="width:175px; margin:10px;"
+					onchange="showDepartment();showSearchBar();showAllCourse();iniAddPage()">
+					<option value="" style="display: none">Select a term</option>
+					<option value="Winter 2020">Winter 2020</option>
+					<option value="Fall 2019">Fall 2019</option>
+				</select>
+
+				<input type="text" id="searchBar" placeholder="Search Course" style=" visibility:hidden"
+					onkeyup="search()">
+				<input id="button" type="button" value="search" style=" visibility:hidden">
+
+				<select id="department" style="width:175px; margin:10px; visibility:hidden" onchange="showCourse()">
+					<option value="Departments">All Departments</option>
+				</select>
+
+				<div id="scrollPart" style=" visibility:hidden;">
+					<ul id="myUL">
+						<li draggable="false" ondragend="tableEnd()"></li>
+						<li draggable="false" ondragend="tableEnd()"></li>
+						<li draggable="false" ondragend="tableEnd()"></li>
+						<li draggable="false" ondragend="tableEnd()"></li>
+						<li draggable="false" ondragend="tableEnd()"></li>
+						<li draggable="false" ondragend="tableEnd()"></li>
+						<li draggable="false" ondragend="tableEnd()"></li>
+					</ul>
+				</div>
+				<p id="note"></p>
+			</div>
+			<div class="right">
+				<table cellpadding="8" id="myTable" ondrop="dropIntable(event)" ondragover="overTable(event)">
+					<tr style="background-color:rgb(240,168,40,0.6);">
+						<td>
+							<p><b>Monday</b></p>
+						</td>
+						<td>
+							<p><b>Tuesday</b></p>
+						</td>
+						<td>
+							<p><b>Wednesday</b></p>
+						</td>
+						<td>
+							<p><b>Thursday</b></p>
+						</td>
+						<td>
+							<p><b>Friday</b></p>
+						</td>
+						<td>
+							<p><b>Saturday</b></p>
+						</td>
+						<td>
+							<p><b>Sunday</b></p>
+						</td>
+					</tr>
+					<tr>
+						<td height="60"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr  style="background-color:rgb(240,168,40,0.2);">
+						<td height="60"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td height="60"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr style="background-color:rgb(240,168,40,0.2);">
+						<td height="60"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td height="60"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr style="background-color:rgb(240,168,40,0.2);">
+						<td height="60"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+
+				<div>
+					<button id="submitAddButton" onclick="submitAdd()">Register</button>
+				</div>
+
+			</div>
+			<script src="js/banitoman.js"></script>
+
+</body>
+
+</html>
