@@ -1,0 +1,32 @@
+# Iteration 3 Report
+
+# Features/User Stories Finished In This Iteration
+* [ ] [Feature 7](#13)
+   * [ ] [User Story 17](#76)
+   * [ ] [User Story 18](#77)
+* [ ] [Feature 8](#14)
+   * [ ] [User Story 19](#78)
+   * [ ] [User Story 20](#79)
+   * [ ] [User Story 21](#80)
+   * [ ] [User Story 22](#81)
+* [ ] [Feature 9](#15)
+   * [ ] [User Story 23](#82)
+* [ ] [Application Testing](#108)
+
+# Features/User Stories Pushed To Future Development
+* [Feature 2](#7)
+   * [User Story 6](#21)
+
+# Notes On Iteration 3
+* Most of the functionality desired was implemented in iteration 3
+* Testing was implemented 
+* Optimized for Google Nexus 7 Tablet
+* Login for default user is username: first, password: 12345
+* More users can be created using sign up
+* Overall the team is happy with the release!
+
+# Run Tests
+* To run all tets run All Tests Suite which will run unit and integration tests
+* To run just integration tests run the integration test suite
+* To run just unit tests run the unit test suite
+* To tun application tests go to the application tests directory and run the application test suite
