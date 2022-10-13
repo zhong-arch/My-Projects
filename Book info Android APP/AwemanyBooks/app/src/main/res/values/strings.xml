@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">code_monkeys_12</string>
+    <string name="nav_header_subtitle">code_monkeys_12@myumanitoba.ca</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_topBooks">Top Viewed Books</string>
+    <string name="menu_findNewBooks">Find New Books</string>
+    <string name="menu_literary">Literary</string>
+    <string name="menu_teen">Teen</string>
+    <string name="menu_fiction">Fiction</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_children">Children</string>
+    <string name="menu_account">User Account</string>
+
+    <string name="author_AlexBel">Alexander Belyaev</string>
+    <string name="title_Amphibian">The Amphibian</string>
+    <string name="book_description"><u>Book Description</u></string>
+
+    <string name="password">password</string>
+    <string name="new_password">new password</string>
+    <string name="old_password">old password</string>
+    <string name="username">username</string>
+    <string name="login">login</string>
+    <string name="update_list">Update List</string>
+    <string name="picture_description">Awemany Books Logo</string>
+    <string name="awemany_books">Awemany Books</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_out">Log Out</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="login_welcome">Welcome to Awemany, Please login or sign up</string>
+    <string name="welcome_message">Welcome</string>
+    <string name="return_string">Return</string>
+    <string name="login_failed">Username or Password Incorrect Please Try Again</string>
+    <string name="signup_fail">Username Is Already Taken Please Try Again</string>
+    <string name="signup_success">Sign Up Successful Log In To Continue</string>
+    <string name="book_info">Book Info</string>
+
+
+    <string name="book_rating">Rating</string>
+    <string name="change_password">Change Password</string>
+    <string name="history">History</string>
+    <string name="my_favourite_books">My Favourite Books</string>
+    <string name="user">User</string>
+    <string name="book_genres">Book Genres</string>
+    <string name="time">Time</string>
+    <string name="login_sucsessful">Login Successful</string>
+
+</resources>

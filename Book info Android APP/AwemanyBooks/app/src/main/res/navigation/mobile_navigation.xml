@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_topbooks"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.TopBooksFragment"
+        android:label="@string/menu_topBooks"
+        tools:layout="@layout/fragment_topbooks" />
+    <fragment
+        android:id="@+id/nav_book_reccommender"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.BookReccomenderFragment"
+        android:label="@string/menu_findNewBooks"
+        tools:layout="@layout/fragment_bookreccomender" />
+
+    <fragment
+        android:id="@+id/nav_literary"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.LiteraryFragment"
+        android:label="@string/menu_literary"
+        tools:layout="@layout/fragment_literary" />
+
+    <fragment
+        android:id="@+id/nav_children"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.ChildrenFragment"
+        android:label="@string/menu_children"
+        tools:layout="@layout/fragment_children" />
+
+    <fragment
+        android:id="@+id/nav_teen"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.TeenFragment"
+        android:label="@string/menu_teen"
+        tools:layout="@layout/fragment_teen" />
+
+    <fragment
+        android:id="@+id/nav_fiction"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.FictionFragment"
+        android:label="@string/menu_fiction"
+        tools:layout="@layout/fragment_fiction" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_user_account"
+        android:name="com.example.AwemanyBooks.Presentation.Fragments.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_user_account" />
+
+
+</navigation>

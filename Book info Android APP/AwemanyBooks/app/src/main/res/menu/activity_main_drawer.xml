@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/nav_topbooks"
+        android:title="@string/menu_topBooks" />
+    <item
+        android:id="@+id/nav_book_reccommender"
+        android:title="@string/menu_findNewBooks" />
+    </group>
+    <item android:title="@string/book_genres">
+        <menu>
+            <item
+                android:id="@+id/nav_literary"
+                android:title="@string/menu_literary" />
+            <item
+                android:id="@+id/nav_children"
+                android:title="@string/menu_children" />
+            <item
+                android:id="@+id/nav_teen"
+                android:title="@string/menu_teen" />
+            <item
+                android:id="@+id/nav_fiction"
+                android:title="@string/menu_fiction" />
+        </menu>
+    </item>
+    <item android:title="@string/user">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_lock"
+                android:title="@string/menu_login" />
+            <item
+                android:id="@+id/nav_user_account"
+                android:icon="@drawable/ic_menu_lock"
+                android:title="@string/menu_account" />
+
+            <item
+                android:id="@+id/nav_favorite"
+                android:title="@string/my_favourite_books" />
+        </menu>
+    </item>
+    <item android:title="@string/history">
+        <menu>
+            <item
+                android:id="@+id/nav_history"
+                android:title="@string/history" />
+        </menu>
+    </item>
+
+</menu>
