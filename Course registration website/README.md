@@ -22,11 +22,11 @@ Steps to check if succesful:
 4. Register and accept (by pressing OK)
 5. x button should disappear.
 
-![add course](./assets/add course.gif)
+![add course](./assets/add_course.gif)
 
 #### Drop course
 
-![drop course](./assets/drop course.gif)
+![drop course](./assets/drop_course.gif)
 
 Additional Notes:
     - We did not focused on: (please do not focus evaluating these areas)
