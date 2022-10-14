@@ -3,8 +3,8 @@
 Please follow these instruction to successfully run the system.
 1. MUST always start at index.html. 
 2. Enter the CORRECT username and password
-    Username: belangera
-    Password: 123qwe
+    Username: name
+    Password: 123
 3. Log-in
 
 **You will know that it is unsucceful when you are clicked register after adding a course and the x button did not go away.**
