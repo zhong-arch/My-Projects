@@ -1,11 +1,17 @@
 # Course Registration website
 
 Please follow these instruction to successfully run the system.
+#### Login
+
 1. MUST always start at index.html. 
 2. Enter the CORRECT username and password
     Username: name
     Password: 123
 3. Log-in
+
+![log in](./assets/login.gif)
+
+#### Register course
 
 **You will know that it is unsucceful when you are clicked register after adding a course and the x button did not go away.**
 Steps to check if succesful:
@@ -16,6 +22,11 @@ Steps to check if succesful:
 4. Register and accept (by pressing OK)
 5. x button should disappear.
 
+![add course](./assets/add course.gif)
+
+#### Drop course
+
+![drop course](./assets/drop course.gif)
 
 Additional Notes:
     - We did not focused on: (please do not focus evaluating these areas)
