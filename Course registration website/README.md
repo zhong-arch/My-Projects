@@ -1,4 +1,4 @@
-# course-reg-system
+# Course Registration website
 
 Please follow these instruction to successfully run the system.
 1. MUST always start at index.html. 
