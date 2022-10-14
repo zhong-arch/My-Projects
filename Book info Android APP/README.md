@@ -8,7 +8,6 @@ Awemany Books is a convenient way for everyone to browse and contrast books righ
 ### Users
 Our Users are anyone who likes to read books or is trying to get into reading but doesnt know which books to read. No matter if you are a beginner reader or have been reading for years Awemany Books aims to find a book for you!
 
-
 ### Functionality
 The purpose of the project was to create an application that allows a user to find books to read. The application does this by providing a database full of books and information about these books that help users find books that interest them.
 
