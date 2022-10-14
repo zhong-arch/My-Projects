@@ -1,6 +1,8 @@
 # Awemany Books – Vision Statement
 ### Presented by Group 12
 
+### [Demonstration video](https://www.youtube.com/watch?v=6-w7fIzbKYE&t=4s)
+
 Awemany Books is a convenient way for everyone to browse and contrast books right from their android device. The app will be a personalized database of books that allows a user to find a book they are looking for conveniently and quickly. Also, users will be able to create and personalize their accounts. An ability to save their information via account would help to provide a pleasant experience with the system. 
 
 The app will allow users to search through the database as well as look through several categories such as top-rated books or personalized recommendations. Once a user finds a book they are interested in they will be able to open the book's page that includes information about it like the name of the author, pictures, and costs at different bookstores. Every book will also have a review section that will contain an average rating and comments from users who purchased and used this book before. 
