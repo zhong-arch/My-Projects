@@ -5,7 +5,7 @@
 
 Awemany Books is a convenient way for everyone to browse and contrast books right from their android device. The app will be a personalized database of books that allows a user to find a book they are looking for conveniently and quickly. Also, users will be able to create and personalize their accounts. An ability to save their information via account would help to provide a pleasant experience with the system. 
 
-![animated image](/assets/books.jpg)
+![animated image](./assets/demonstrates.gif)
 
 ### Users
 Our Users are anyone who likes to read books or is trying to get into reading but doesnt know which books to read. No matter if you are a beginner reader or have been reading for years Awemany Books aims to find a book for you!
