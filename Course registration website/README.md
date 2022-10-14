@@ -1,5 +1,16 @@
 # Course Registration website
 
+The main purpose of this system is to manage university or college courses including checking course availability, registering courses and dropping courses. The main feature of the system is that users can view the actual timetable of courses while they select and register their courses.
+
+There are five tasks could be implemented in the system：
+- Browsing courses by different academic term and department
+- Checking information of different course
+- Checking eligibility of courses
+- Adding courses into timetable and registering them
+- Dropping courses
+- Checking course schedule
+
+
 Please follow these instruction to successfully run the system.
 #### Login
 
