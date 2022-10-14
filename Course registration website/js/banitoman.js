@@ -9,7 +9,7 @@ var selCourse;
 var addData = [];
 var dropData = [];
 var username = "Alex";
-var user1 = { name: "", password: "" };//regData is divided by term
+var user1 = { name: "name", password: "123" };//regData is divided by term
 userData.push(user1);
 
 var winID = [];
