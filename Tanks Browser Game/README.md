@@ -32,4 +32,4 @@ For more detailed information about this game, please check the file "Game Desig
 The game files and all required files are prepared in this folder, please check "Administrator's Manual.pdf" file to install and play the game.
 
 Demonstration
-![demo](./assets/demo)
+![demo](./assets/demo.gif)
