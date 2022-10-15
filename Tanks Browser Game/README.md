@@ -27,3 +27,9 @@ Once enemies are spawned, they will randomly move in up, down, left, and right d
 
 The game world is a scrolling tournament. The player stays at the bottom of the canvas, when the player reaches the 2/3 height of the canvas, the canvas will be scrolling up( everything except the player’s tank will move down on the canvas ).
 ![background](./assets/background.png)
+
+For more detailed information about this game, please check the file "Game Design Document.pdf".
+The game files and all required files are prepared in this folder, please check "Administrator's Manual.pdf" file to install and play the game.
+
+Demonstration
+![demo](./assets/demo)
